@@ -59,7 +59,7 @@ main{
     background-repeat: no-repeat;
     background-position: 18px;
     background-size: 300px;
-    background-image: url("./Imagens/interrogaçao.png");
+    background-image: url("/img/interrogaçao.png");
     background-size: 150px 150px;
     background-position: 80px;
     
