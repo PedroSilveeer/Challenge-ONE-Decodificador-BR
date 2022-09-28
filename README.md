@@ -1,10 +1,10 @@
 # Challenge-ONE-Decodificador-BR  
 
-Project based in: [Challenge One] (https://github.com/aluralatamprofes/One-Encriptador-Turma3)
+Projeto baseado em: [Challenge One] (https://github.com/aluralatamprofes/One-Encriptador-Turma3)
 
-#### Attempt of a dark mode based on the project.
+#### Tentativa de um dark mode baseado no projeto
 
-## Technologies used:
+## Tecnologias usadas:
  
 * HTML
 * CSS
