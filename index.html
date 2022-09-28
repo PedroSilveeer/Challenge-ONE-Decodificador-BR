@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Codificador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel ="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        
+       
+    </head>
+
+    <body>
+        <header>
+            <img  class = "logo" src="Imagens/logo.png" alt = "Logo da Alura">       
+        </header>
+        
+        <main>
+            
+            <section>
+                <textarea class="entrada-texto" cols="40" rows="6" id="texto" placeholder="Digite seu texto"></textarea>
+                <div id = "aviso">
+                    <h6 class="informacao"> &#9888; Apenas letras minúsculas e sem acento</h6>
+                </div>
+                <div class="botoes">
+
+                    <button class="btn-encriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+
+                    <button class="btn-desencriptar" onclick = "btnDesencriptar()"> 
+                        Descriptografar 
+                    </button>
+                </div>
+
+            </section>
+
+            <section> 
+                <textarea class = "saida-texto" cols="18" rows="8" id = "texto"  placeholder="Nenhum texto encontrado ainda..."></textarea>
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                <button class="btn-limpar" onclick="limpar()">Limpar</button>
+                
+            </section>
+
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+ </html>
+
