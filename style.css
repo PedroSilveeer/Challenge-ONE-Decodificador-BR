@@ -1,0 +1,190 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+body {
+    background-color: #212121;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px ;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 84px;
+    margin-top: 40px;
+    
+}
+
+/* caixas de texto */
+
+.entrada-texto{ 
+    padding: 1em;
+    margin-top: 150px;
+    height: 400px;
+    width: 600px;
+    background-color: #4D4D4D;
+
+    border-color: black;
+    border-radius: 5px;
+
+    color: #F7F7F7;
+    font-size: 20px;
+
+    resize: none;
+
+
+}
+
+.informacao{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.saida-texto{
+    width: 294px;
+    height: 352px;
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 90px;
+    padding: 1em;
+
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    background-image: url("Imagens/interrogaçao.png");
+    background-size: 150px 150px;
+    background-position: 80px;
+    
+    background-color: #4D4D4D;
+
+    color: #F7F7F7;
+    font-size: 20px;
+    resize: none;
+
+
+
+}
+
+/* botoes */
+
+
+.btn-encriptar{
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1em;
+    position:fixed; ;
+    
+    background-color: #0A3871;
+
+    border-radius: 20px;
+
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+
+    cursor: pointer;
+    transition: 1s all;
+
+}
+
+.btn-encriptar:hover{
+
+    background: #05264e;
+
+
+}
+
+.btn-desencriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1em;
+    position: fixed;
+    margin-left: 300px;
+
+    border-radius: 20px;
+    background-color: #a9a9a9;
+    color: #0A3871;
+
+    font-weight: 600;
+    font-size: 18px;
+
+    cursor: pointer;
+    transition: 1s all;
+   
+
+}
+
+.btn-desencriptar:hover{
+    
+    background: #606060;
+
+}
+
+.btn-copiar{
+margin: 560px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 1em;
+position: fixed;
+border-radius: 20px;
+margin-left: 200px;
+
+color: #0A3871;
+background-color: #a9a9a9;
+
+font-weight: 600;
+font-size: 18px;
+
+cursor: pointer;
+transition: 1s all;
+}
+
+.btn-copiar:hover{
+
+    background: #606060;
+
+}
+    
+    
+.btn-limpar{
+margin-top: 505px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 7px;
+position: fixed;
+
+margin-left: 362px;
+
+color: #0A3871;
+background-color: #a9a9a9;
+
+font-weight: 600;
+font-size: 14px;
+
+cursor: pointer;
+transition: 1s all;
+
+}
+
+.btn-limpar:hover{
+
+    background: #606060;
+
+}
+
+
+
+
+
